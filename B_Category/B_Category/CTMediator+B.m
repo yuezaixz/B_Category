@@ -17,7 +17,7 @@
      */
     NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
     params[@"contentText"] = contentText;
-    return [self performTarget:@"B" action:@"viewController" params:params shouldCacheTarget:NO];
+    return [self performTarget:@"B" action:@"viewControllerWithContentText" params:params shouldCacheTarget:NO];
 }
 
 @end
